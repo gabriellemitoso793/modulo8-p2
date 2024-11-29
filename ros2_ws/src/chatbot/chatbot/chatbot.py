@@ -5,7 +5,7 @@ from std_msgs.msg import String
 
 class ChatbotNode(Node):
     def __init__(self):
-        
+
         # inicia o nó 'chatbot_node'
         super().__init__('chatbot_node')
         self.publisher_ = self.create_publisher(String, 'chatbot_feedback', 10)
@@ -47,7 +47,7 @@ class ChatbotNode(Node):
         # se nao achar nada, printa para o user
         self.get_logger().info("Desculpe, não entendi o comando.")
 
-    #
+    # função para rodar o chatbot
     def run(self):
         while rclpy.ok():
 

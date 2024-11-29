@@ -22,7 +22,7 @@ ros2_ws/
 
 - **Compreensão de linguagem natural**: Usa expressões regulares para interpretar comandos.
 - **Mapeamento de intenções**: Tradução de intenções do usuário em ações para o robô.
-- **Feedback ao usuário**: O chatbot informa ao usuário quando a ação foi compreendida ou se o comando não foi reconhecido.
+- **Feedback ao usuário**: O chatbot informa ao usuário qual ação foi compreendida ou se o comando não existe.
 
 ### Exemplos de Comandos
 
