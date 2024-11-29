@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000857] (chatbot) JobQueued: {'identifier': 'chatbot', 'dependencies': OrderedDict()}
+[0.001045] (chatbot) JobStarted: {'identifier': 'chatbot'}
+[0.099514] (-) TimerEvent: {}
+[0.200066] (-) TimerEvent: {}
+[0.300597] (-) TimerEvent: {}
+[0.401181] (-) TimerEvent: {}
+[0.501735] (-) TimerEvent: {}
+[0.602215] (-) TimerEvent: {}
+[0.702711] (-) TimerEvent: {}
+[0.803240] (-) TimerEvent: {}
+[0.903851] (-) TimerEvent: {}
+[1.004416] (-) TimerEvent: {}
+[1.037319] (chatbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chatbot', 'build', '--build-base', '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/build', 'install', '--record', '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/inteli/modulo8-p2/ros2_ws/src/chatbot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/modulo8-p2/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2021', 'GOROOT': '/usr/local/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/inteli/modulo8-p2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/inteli/go/bin:/usr/local/go/bin:/home/inteli/go/bin:/usr/local/go/bin:/home/inteli/go/bin:/usr/local/go/bin:/home/inteli/go/bin:/usr/local/go/bin:/home/inteli/go/bin:/usr/local/go/bin:/home/inteli/go/bin', 'SESSION_MANAGER': 'local/Notebook-0205:@/tmp/.ICE-unix/1993,unix/Notebook-0205:/tmp/.ICE-unix/1993', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4d456f5_1e98_47a1_a2f6_7ca0f6900ea0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WFW5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/modulo8-p2/ros2_ws/install/chatbot:/opt/ros/humble', 'SHELL': '/bin/bash', 'GOPATH': '/home/inteli/go', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/modulo8-p2/ros2_ws/build/chatbot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages:/home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.104631] (-) TimerEvent: {}
+[1.205117] (-) TimerEvent: {}
+[1.305643] (-) TimerEvent: {}
+[1.406273] (-) TimerEvent: {}
+[1.433287] (chatbot) StdoutLine: {'line': b'running egg_info\n'}
+[1.434221] (chatbot) StdoutLine: {'line': b'creating ../../build/chatbot/chatbot.egg-info\n'}
+[1.434655] (chatbot) StdoutLine: {'line': b'writing ../../build/chatbot/chatbot.egg-info/PKG-INFO\n'}
+[1.435237] (chatbot) StdoutLine: {'line': b'writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt\n'}
+[1.435589] (chatbot) StdoutLine: {'line': b'writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt\n'}
+[1.435775] (chatbot) StdoutLine: {'line': b'writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt\n'}
+[1.435881] (chatbot) StdoutLine: {'line': b'writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt\n'}
+[1.436142] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[1.438949] (chatbot) StdoutLine: {'line': b"reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[1.440132] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[1.440340] (chatbot) StdoutLine: {'line': b'running build\n'}
+[1.440709] (chatbot) StdoutLine: {'line': b'running build_py\n'}
+[1.440836] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build\n'}
+[1.440944] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib\n'}
+[1.441049] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot\n'}
+[1.441154] (chatbot) StdoutLine: {'line': b'copying chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot\n'}
+[1.441366] (chatbot) StdoutLine: {'line': b'copying chatbot/__init__.py -> /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot\n'}
+[1.441489] (chatbot) StdoutLine: {'line': b'running install\n'}
+[1.441773] (chatbot) StdoutLine: {'line': b'running install_lib\n'}
+[1.443056] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[1.443358] (chatbot) StdoutLine: {'line': b'copying /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[1.443472] (chatbot) StdoutLine: {'line': b'copying /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[1.444127] (chatbot) StdoutLine: {'line': b'byte-compiling /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc\n'}
+[1.445444] (chatbot) StdoutLine: {'line': b'byte-compiling /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc\n'}
+[1.445830] (chatbot) StdoutLine: {'line': b'running install_data\n'}
+[1.445954] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index\n'}
+[1.446060] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index\n'}
+[1.446157] (chatbot) StdoutLine: {'line': b'creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[1.446334] (chatbot) StdoutLine: {'line': b'copying resource/chatbot -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[1.446502] (chatbot) StdoutLine: {'line': b'copying package.xml -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/chatbot\n'}
+[1.446619] (chatbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.449344] (chatbot) StdoutLine: {'line': b'Copying ../../build/chatbot/chatbot.egg-info to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info\n'}
+[1.450458] (chatbot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.486872] (chatbot) StdoutLine: {'line': b'Installing chatbot script to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/chatbot\n'}
+[1.487352] (chatbot) StdoutLine: {'line': b"writing list of installed files to '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log'\n"}
+[1.506515] (-) TimerEvent: {}
+[1.528627] (chatbot) CommandEnded: {'returncode': 0}
+[1.546976] (chatbot) JobEnded: {'identifier': 'chatbot', 'rc': 0}
+[1.548175] (-) EventReactorShutdown: {}

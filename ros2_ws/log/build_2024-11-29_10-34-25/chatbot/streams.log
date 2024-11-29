@@ -1,0 +1,37 @@
+[1.041s] Invoking command in '/home/inteli/modulo8-p2/ros2_ws/src/chatbot': PYTHONPATH=/home/inteli/modulo8-p2/ros2_ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build install --record /home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log --single-version-externally-managed install_data
+[1.433s] running egg_info
+[1.434s] creating ../../build/chatbot/chatbot.egg-info
+[1.434s] writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+[1.434s] writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+[1.435s] writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+[1.435s] writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+[1.435s] writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+[1.435s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[1.438s] reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[1.439s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[1.440s] running build
+[1.440s] running build_py
+[1.440s] creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build
+[1.440s] creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib
+[1.440s] creating /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot
+[1.440s] copying chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot
+[1.440s] copying chatbot/__init__.py -> /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot
+[1.441s] running install
+[1.441s] running install_lib
+[1.442s] creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[1.442s] copying /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[1.442s] copying /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[1.443s] byte-compiling /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc
+[1.445s] byte-compiling /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc
+[1.445s] running install_data
+[1.445s] creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index
+[1.445s] creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index
+[1.445s] creating /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index/packages
+[1.445s] copying resource/chatbot -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/ament_index/resource_index/packages
+[1.446s] copying package.xml -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/share/chatbot
+[1.446s] running install_egg_info
+[1.448s] Copying ../../build/chatbot/chatbot.egg-info to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+[1.450s] running install_scripts
+[1.486s] Installing chatbot script to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/chatbot
+[1.486s] writing list of installed files to '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log'
+[1.528s] Invoked command in '/home/inteli/modulo8-p2/ros2_ws/src/chatbot' returned '0': PYTHONPATH=/home/inteli/modulo8-p2/ros2_ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build install --record /home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log --single-version-externally-managed install_data
