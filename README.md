@@ -1,4 +1,4 @@
-# Chatbot para Controle de Robôs no ROS 2
+# Chatbot com regras para controle de robô ROS2
 
 Este projeto implementa um nó ROS 2 que funciona como um chatbot para interagir com um robô fictício. O chatbot interpreta comandos de linguagem natural, mapeia intenções para ações e fornece feedback ao usuário. Ele é desenvolvido em Python e utiliza o framework ROS 2 Humble.
 
