@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot
+running install
+running install_lib
+copying /home/inteli/modulo8-p2/ros2_ws/build/chatbot/build/lib/chatbot/chatbot.py -> /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot
+byte-compiling /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/chatbot/chatbot.egg-info to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chatbot script to /home/inteli/modulo8-p2/ros2_ws/install/chatbot/lib/chatbot
+writing list of installed files to '/home/inteli/modulo8-p2/ros2_ws/build/chatbot/install.log'
