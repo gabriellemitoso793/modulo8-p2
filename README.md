@@ -20,8 +20,8 @@ ros2_ws/
 
 ## Funcionalidades
 
-- **Compreensão de linguagem natural**: Usa expressões regulares para interpretar comandos.
-- **Mapeamento de intenções**: Tradução de intenções do usuário em ações para o robô.
+- **Reconhecimento de destinos**: Detecta palavras-chave como "laboratório", "secretaria", "biblioteca" e "auditório" em qualquer frase.
+- **Mapeamento direto**: Associa os destinos reconhecidos a ações específicas.
 - **Feedback ao usuário**: O chatbot informa ao usuário qual ação foi compreendida ou se o comando não existe.
 
 ### Exemplos de Comandos
@@ -33,7 +33,8 @@ ros2_ws/
 ### Respostas Esperadas
 
 - **Comando válido**:
-Intenção: movimentar-se, Local: biblioteca O robô está se dirigindo à biblioteca.
+Local reconhecido: biblioteca
+O robô está se dirigindo à biblioteca.
 
 - **Comando inválido**:
 Desculpe, não entendi o comando.
